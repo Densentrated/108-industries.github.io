@@ -1,1 +1,18 @@
+@font-face {
+    font-family: MonoManiac;
+    src: url('../assets/fonts/Monomaniac_One/MonomaniacOne-Regular.ttf') format('truetype');
+}
+
+*{
+    background-color: #0d1117;
+    color: white;
+}
+
+h1 {
+    font-family: MonoManiac;
+}
+
+p {
+    font-family: MonoManiac;
+}
 
