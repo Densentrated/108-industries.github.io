@@ -11,7 +11,7 @@ anime({
 anime({
     targets: ".navBar",
     translateX: ["-10vw", "78vw"],
-    duration: 1500,
+    duration: 600,
     easing: 'easeInOutSine'
 })
 
