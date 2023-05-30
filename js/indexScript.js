@@ -10,7 +10,18 @@ anime({
 // navbar movement
 anime({
     targets: ".navBar",
-    translateX: ["-10%", "78%"],
+    translateX: ["-10vw", "78vw"],
     duration: 1500,
     easing: 'easeInOutSine'
 })
+
+//smooth scroll on nav bar click
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});

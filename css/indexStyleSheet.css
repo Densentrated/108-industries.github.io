@@ -34,11 +34,12 @@ p {
     font-size: 50px;
 }
 
-.navBar {
 
+.navBar {
     padding: 2%;
     margin: 0 auto;
     list-style: none;
+    width: 100%;
 }
 
 .navBar ul li {
@@ -50,9 +51,16 @@ p {
 .navBar li a:hover {
     transition:100ms;
     color: #fc0; 
+    text-decoration: none;
   }
 
 .navBar li a {
     transition:100ms;
+    text-decoration: none;
+}
+
+.section{
+    padding-top:6vh;
+    padding-bottom: 20vh;
 }
 
