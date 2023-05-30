@@ -4,9 +4,12 @@
 }
 
 *{
-    background-color: #0d1117;
     color: white;
     font-family:monoManiac;
+}
+
+body{
+    background-color: #0d1117;
 }
 
 h1 {
@@ -30,3 +33,26 @@ p {
 .header{
     font-size: 50px;
 }
+
+.navBar {
+
+    padding: 2%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.navBar ul li {
+    list-style: none;
+    margin: 0 1%;
+    display: inline-block;
+}
+
+.navBar li a:hover {
+    transition:100ms;
+    color: #fc0; 
+  }
+
+.navBar li a {
+    transition:100ms;
+}
+

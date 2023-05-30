@@ -1,21 +1,16 @@
 // header and subheadr movement
 anime({
-    targets: ".header",
+    targets: ".subHeader",
     translateX: ["-40%", "4%"],
-    durration: 20000,
+    duration: 1500,
     easeing: "easeInOutSine",
-    delay: anime.stagger(140)
+    delay: anime.stagger(160)
 })
 
+// navbar movement
 anime({
-    targets: "#subHead1",
-    translateX:"14%",
-    duration: 1000
+    targets: ".navBar",
+    translateX: ["-10%", "78%"],
+    duration: 1500,
+    easing: 'easeInOutSine'
 })
-
-anime({
-    targets: "#subHead2",
-    translateX:"24%",
-    durration: 1000
-})
-
