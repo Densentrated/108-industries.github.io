@@ -10,7 +10,17 @@
 }
 
 h1 {
+    margin-bottom:0vh;
+    margin-top:0vh;
+    padding-bottom:0vh;
+    padding-top:0vh;
+}
+
+.subHeader {
     font-family: MonoManiac;
+    font-size: 8vh;
+    margin-bottom:0vh;
+    margin-top:0vh;
 }
 
 p {
