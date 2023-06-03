@@ -10,7 +10,7 @@ anime({
 // navbar movement
 anime({
     targets: ".navBar",
-    translateX: ["-10vw", "78vw"],
+    translateX: ["-10vw", "70vw"],
     duration: 600,
     easing: 'easeInOutSine'
 })
